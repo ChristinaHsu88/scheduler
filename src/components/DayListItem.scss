@@ -23,7 +23,8 @@
       color: $dark-background;
 
       &:hover {
-        background-color: darken($white, 5%);
+        background-color: #ee5253;
+        cursor: pointer;
       }
     }
 
