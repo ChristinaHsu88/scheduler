@@ -1,9 +1,9 @@
 import React from "react";
 import "./DayListItem.scss";
-import className from 'classnames';
+// import className from 'classnames'; for className method below
 
 export default function DayListItem(props) {
-  let dayClass = className({'day-list__item--selected': props.name, 'day-list__item--full': props.spots === 0});
+  // let dayClass = className({'day-list__item--selected': props.name, 'day-list__item--full': props.spots === 0}); need to fix this
   return (
     <li onClick={() => props.setDay(props.name)}>
       <h2 className="text--regular">{props.name}</h2>
