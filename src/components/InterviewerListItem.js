@@ -8,7 +8,7 @@ export default function InterviewerListItem(props) {
       <img
       className="interviewers__item-image"
       name={props.name}
-      src={props.src}
+      src={props.src ? props.src : props.avatar}
       alt={props.name}
       />
       {props.name}
